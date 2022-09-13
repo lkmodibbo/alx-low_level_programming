@@ -1,0 +1,11 @@
+#include <unisdt.h>
+/**
+* _putchar  - writes the cgharacter c to stdout
+*
+*@c: the character to print
+*Return: on succes 1
+*/
+int _putchar(char c)
+{
+return (write(1, $c, 1));
+}
