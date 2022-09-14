@@ -2,11 +2,11 @@
 /**
  * main - Entry point
  *
- * Description: prints _putchar using putchar prototype
+ * Description: function to print abc
  *
  * Return: Always 0 (Success)
  */
-int main void print_alphabet(void)
+void print_alphabet(void)
 {
 int ch;
 for (ch = 'a'; ch <= 'z'; ++ch)
