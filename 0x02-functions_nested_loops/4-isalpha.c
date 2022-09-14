@@ -9,13 +9,13 @@
  */
 int _isalpha(int c)
 {
-int i = isalpha(c); 
-if (i > 0)  
+int i = isalpha(c);
+if (i > 0)
 {
-return (1);     
+  return (1);
 }
-else    
-{     
+ else
+{
 return (0);
-} 
+}
 }
