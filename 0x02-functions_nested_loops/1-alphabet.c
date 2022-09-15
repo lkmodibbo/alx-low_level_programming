@@ -1,15 +1,20 @@
 #include "main.h"
 /**
- * main - Entry point
+ * print_alphabet_x10 - Make alphabet x10 times
  *
- *print_alphabet: function to print abc
- *
- * Return: Always 0 (Success)
+ * Return: void
  */
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
 char c;
-for (c = 'a'; c <= 'z'; ++c)
+int i = 0;
+while (i <= 9)
+{
+for (c = 'a'; c <= 'z'; c++)
+{
 _putchar(c);
-_putchar('\n');
+}
+_putchar('\n'); 
+i++;
+} 
 }
