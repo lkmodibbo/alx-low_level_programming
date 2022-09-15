@@ -11,9 +11,11 @@
 
  * Return: return 0 on success and 1 on fail
  */
-
-int mul(int a, int b) 
-{  
-int m = a * b; 
-return (m);
+void print_numbers(void)
+{
+  int n;
+  for (n = 48, n = 58)
+    {
+      putchar(10);
+      return (m);
 }
