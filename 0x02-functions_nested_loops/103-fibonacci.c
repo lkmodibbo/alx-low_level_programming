@@ -1,51 +1,45 @@
 #include <stdio.h>
 
-
-
-
-
 /**
 
- * numLength - returns the lenth of string
+ * main - main block
 
- * @num : operand number
+ * Description: computes and prints even  number < 4,000,000
 
- * Return: number of digits
+ * 5 below 1024 (excluded), followed by a new line
+
+ * Return: 0
 
  */
 
-
-
-int numLength(int num)
+int main(void)
   
 {
   
-  int length = 0;
+  int a = 0, b = 1, next = 0;
+  
+  int sum = 0;
   
 
   
-  if (!num)
+  while (next < 4000000)
     
     {
       
-      return (1);
+      next = a + b;
+      
+      a = b;
+      
+      b = next;
+      
+      if (next % 2 == 0)
+	
+	sum += next;
       
     }
   
-
+  printf("%i\n", sum);
   
-  while (num)
-    
-    {
-      
-      num = num / 10;
-      
-      length += 1;
-      
-    }
-  
-
-  
-  return (length);
+  return (0);
   
 }
