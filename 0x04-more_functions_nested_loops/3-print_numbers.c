@@ -1,22 +1,18 @@
-#include <stdio.h>
-#include "main.h 
+#include "main.h"
+
 
 
 /**
- * mul - function that multiplies two integers
- *
- * @a: an integer  type
- * @b: an integer integer
+
+ * main - check the code
 
  *
 
- * Return: return 0 on success and 1 on fail
+ * Return: Always 0.
  */
-void print_numbers(void)
+
+int main(void)  
 {
-  int n;
-  for (n = 48, n = 58)
-    {
-      putchar(10);
-      return (m);
+print_numbers();
+return (0); 
 }
