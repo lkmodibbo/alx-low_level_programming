@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include "main.h"
 /**
- *print most_numbers - function that print all numbers from 0 to 9
- *
- * Return: returning nothing
- */
+*print most_numbers - function that print all numbers
+* from 0 to 9
+*
+* Return: returning nothing
+*/
 void print_numbers(void)
 {
 int n;
