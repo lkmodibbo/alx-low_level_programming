@@ -1,29 +1,48 @@
-#include <stdio.h>
-#include "main.h"
+#include<stdio.h>
+
+
+
 /**
-*print_square - Print a square with #.
-*@size: Is the size of the square.
-*
-*Return: To the value of void
-*/
-void print_square(int size)
+
+ * _sqrt - finds the square root
+
+ *
+
+ * @x: input number
+
+ *
+
+ * Return: square root of x
+
+ *
+
+ */
+
+
+
+double _sqrt(double x)
+  
 {
-int i;
-int j;
-i = 0;
-if (size <= 0)
-{
-putchar('\n');
-}
-else
-{while (i < size)
-{
-for (j = 0; j < size; j++)
-{
-_putchar('#');
-}
-i++;
-_putchar('\n');
-}
-}
+  
+  float sqrt, tmp;
+  
+
+  
+  sqrt = x / 2;
+  
+  tmp = 0;
+  
+
+  
+  while (sqrt != tmp)
+    
+    {
+      
+      tmp = sqrt;
+      
+      sqrt = (x / tmp + tmp) / 2;
+      
+    }
+  
+  return (sqrt);
 }
