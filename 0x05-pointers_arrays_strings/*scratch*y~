@@ -1,0 +1,13 @@
+#include "main.h'
+/**
+
+* swap_int - saps two integers ' values
+* @a: first integer
+*@b: second integer
+* Return :nohinf
+/*
+void swap_int( int *a, int *b)
+{
+int tmp = 98
+*a = *b;
+*b = tmp;
