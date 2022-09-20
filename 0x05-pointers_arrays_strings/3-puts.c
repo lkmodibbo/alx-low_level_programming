@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- *_puts - prints a string, followed by a newline to stdout
- *str - string 
- * Return: Nothing
- */
+*_puts - prints a string, followed by a newline to stdout
+*str - string
+* Return: Nothing
+*/
 void _puts(char *str)
 {
 while (*str != '\0')
