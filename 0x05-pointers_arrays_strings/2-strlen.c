@@ -2,9 +2,9 @@
 /**
  *strlen - returns the length of a string
  *
- *@s: string parameter input
- *Return: length of string
- */
+ *@s: string
+ *Return:Return length as integer
+*/
 int _strlen(char *s)
 {
 int counter;
