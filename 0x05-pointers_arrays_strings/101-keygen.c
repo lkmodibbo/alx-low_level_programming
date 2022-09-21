@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -25,4 +26,5 @@ putchar(s + '0');
 break;
 }
 }
+return (0);
 }
