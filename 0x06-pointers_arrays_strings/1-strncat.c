@@ -6,7 +6,7 @@
  *@n: integer parameter to compare index to
  *Return: return new concatenated string
  */
-char *_strncat(char *dest, char *src, int n);
+char *_strncat(char *dest, char *src, int n)
 {
 index = 0. dest_len = 0;
 while (dest_[index++])
