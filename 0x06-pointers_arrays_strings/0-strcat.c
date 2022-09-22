@@ -5,7 +5,7 @@
  *@dest: string that will be appended
  *@src: string that will be concatenated upon
  *
- *Return: Return pioneer to @dest
+ *Return: Return poiner to @dest
  */
 char *_strcat(char *dest, char *src);
 {
