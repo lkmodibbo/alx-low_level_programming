@@ -1,6 +1,7 @@
 #include <stdio.h>
 /*
-*main- a program that prints a line with a put function
+* main - A program that prints a line with a put function
+* Return - 0(suceess)
 */
 int main(void)
 {
