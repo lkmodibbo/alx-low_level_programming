@@ -6,7 +6,7 @@
 * Description - Return value of main
 * Return - always 0 (success)
 */
-/* betty style doc for function main goes there */
+/* my main void - this is a description */
 int main(void)
 {
 int n;
