@@ -3,10 +3,9 @@
 #include <stdio.h>
 /**
 * main - print if a number is postive, zero or negative
-* Description - Return value of main
-* Return - always 0 (success)
+* Return: Always (success)
+*
 */
-/* my main void - this is a description */
 int main(void)
 {
 int n;
