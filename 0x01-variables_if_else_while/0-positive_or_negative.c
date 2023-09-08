@@ -3,6 +3,7 @@
 #include <stdio.h>
 /**
 * main - Entry point
+* Description - Return value of main
 * Return - always 0 (success)
 */
 int main(void)
