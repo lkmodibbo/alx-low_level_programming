@@ -5,8 +5,8 @@
 * main - Entry point
 * Description - Return value of main
 * Return - always 0 (success)
+* my main - this is a description
 */
-int main(void) /*return main*/
 {
 int n;
 srand(time(0));
