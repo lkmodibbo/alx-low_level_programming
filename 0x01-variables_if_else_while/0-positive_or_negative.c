@@ -6,7 +6,7 @@
 * Description - Return value of main
 * Return - always 0 (success)
 */
-int main(void)
+int main(void) /** Description - Return value of main */
 {
 int n;
 srand(time(0));
