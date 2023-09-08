@@ -4,6 +4,7 @@
 /**
 * main - Entry point
 * Return - Always 0 (success)
+* main function
 */
 int main(void)
 {
