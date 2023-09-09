@@ -8,16 +8,16 @@
 int main(void)
 {
 int d;
-int p;
+int b;
 for(d = '0'; d < '9'; d++)
 {
-for(p = d + 1; P <= '9'; p++)
+for(b = d + 1; b <= '9'; b++)
 {
-if(p !=d)
+if(b != d)
 {
 putchar(d);
-putchar(p);
-if (d == '8' && p == '9')
+putchar(b);
+if (d == '8' && b == '9')
 continue;
 putchar(',');
 putchar(' ');
