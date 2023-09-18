@@ -27,7 +27,7 @@ if (d % 2)
 digit = -digit;
 n = n * 10 + digit;
 f = 1;
-if (s[i+1] < '0' || s[i+1] > '0')
+if (s[i + 1] < '0' || s[i + 1] > '0')
 break;
 f = 0;
 }
